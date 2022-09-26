@@ -10,7 +10,7 @@ const pimp = require("../images/pimp.png");
 const spongebob = require("../images/spongebob.png");
 
 const Main = () => {
-  const [screenW, ] = useContext(screenWidth);
+  const screenW = useContext(screenWidth);
   return (
     <div className="main pt-12">
       <header className="header--wrapper">

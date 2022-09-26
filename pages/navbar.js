@@ -3,7 +3,7 @@ import { BiMenu } from "react-icons/bi";
 import { screenWidth } from "./index";
 
 const Navbar = () => {
-  const [screenW, setScreenW] = useContext(screenWidth);
+  const screenW = useContext(screenWidth);
   const navbar = useRef();
   return (
     <nav>
