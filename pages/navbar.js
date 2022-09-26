@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { BiMenu } from "react-icons/bi";
-import { screenWidth } from ".";
+import { screenWidth } from "./index";
 
 const Navbar = () => {
   const [screenW, setScreenW] = useContext(screenWidth);

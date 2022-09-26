@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useContext } from "react";
 import { BsChevronRight, BsChevronDown } from "react-icons/bs";
-import { screenWidth } from ".";
+import { screenWidth } from "./index";
 const drop = require("../images/drop.png");
 const catOps = require("../images/cat-ops.png");
 const pig = require("../images/pig.png");
