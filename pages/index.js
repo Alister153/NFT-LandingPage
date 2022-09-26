@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 
 export const screenWidth = createContext();
 export default function Home() {
-  const [screenW, setScreenW] = useState();
+  const [screenW, setScreenW] = useState(window.screen.width);
   useEffect(() => {
     setScreenW(window.screen.width);
     window.addEventListener("resize", () => {
