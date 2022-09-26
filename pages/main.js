@@ -25,6 +25,7 @@ const Main = () => {
             <figure className="drop--wrapper">
               <Image
                 className="drop"
+                alt="drop"
                 src={drop}
                 width="100px"
                 height="100px"
@@ -53,7 +54,7 @@ const Main = () => {
         <div className="ops-wrapper">
           <div className="hazard">
             <figure>
-              <Image src={catOps} />
+              <Image src={catOps} alt="catOps" />
             </figure>
           </div>
         </div>
@@ -63,21 +64,21 @@ const Main = () => {
           <div className="item">
             <div className="item-wrapper">
               <figure>
-                <Image src={pig} />
+                <Image src={pig} alt="Pig" />
               </figure>
             </div>
           </div>
           <div className="item">
             <div className="item-wrapper">
               <figure>
-                <Image src={ape} />
+                <Image src={ape} alt="Ape" />
               </figure>
             </div>
           </div>
           <div className="item">
             <div className="item-wrapper">
               <figure>
-                <Image src={pimp} />
+                <Image src={pimp} alt="Pimp" />
               </figure>
             </div>
           </div>
@@ -89,7 +90,7 @@ const Main = () => {
       </main>
       <div className="spongebob">
         <figure>
-          <Image src={spongebob} />
+          <Image src={spongebob} alt="Spongebob" />
         </figure>
       </div>
     </div>
